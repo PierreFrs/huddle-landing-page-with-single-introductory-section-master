@@ -1,0 +1,150 @@
+/*general styles*/
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    display: grid;
+    place-items: center;
+
+}
+
+body {
+    max-width: 375px;
+    display: grid;
+    place-items: center;
+    background: url(./images/bg-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: hsl(257, 40%, 49%);
+    position: relative;
+}
+
+/*typography styles*/
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+    line-height: 1.5;
+}
+
+p {
+    font-size: 1rem;
+    color: white;
+    line-height: 1.5;
+}
+
+/*button style*/
+
+.button {
+    font-size: 0.75rem;
+    color: hsl(257, 40%, 49%);
+    text-decoration: none;
+    line-height: 1.5;
+    padding: 1em 6.25em;
+    border-radius: 100px;
+    background-color: white;
+    display: block;
+}
+
+.button:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+}
+
+
+
+/*header styles*/
+
+.header {
+    width: 100%;
+    padding: 10.7%;
+}
+
+.logo {
+    width: 32%
+}
+
+/*main styles*/
+
+.main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:0 10.7% ;
+}
+
+    /*hero styles*/
+    .hero {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .hero-image {
+        width: 100%;
+    }
+
+    /*statement styles*/
+
+    .statement {
+        text-align: center;
+        margin-top: 3.75em;
+    }
+
+    .statement-paragraph {
+        margin-top: 1em;
+    }
+
+    .button {
+        margin-top: 1.5em;
+    }
+
+    /*social media styles*/
+
+    .social-media {
+        width: 30%;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 10.7% 36%;
+        margin: 3.75em auto;
+    }
+
+    .media-link {
+        min-width: 28px;
+        margin: auto 1em;
+    }
+
+    svg {
+        padding: 20%;
+        width: 100%;
+        fill: white; 
+        border: 1px solid white;
+        border-radius: 100px;
+        aspect-ratio: 1;
+    }
+
+    svg:hover {
+        fill: hsl(300, 69%, 71%);
+        border: 1px solid hsl(300, 69%, 71%);
+    }
+    
+
+/*footer styles*/
+
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+/*media querries*/
+
